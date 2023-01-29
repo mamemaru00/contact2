@@ -19,4 +19,4 @@ use App\Http\Controllers\ContactController;
 // });
 
 //トップページ
-Route::get('/',[ContactController::class, 'index'])->name('index');
+Route::get('/',[ContactController::class, 'index'])->name('contact.index');
